@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo01.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .galery,
+        iframe {
+            margin: 0 auto;
+            padding: 60px;
+            width: 80%;
+            background-color: #08090dc3;
+            margin-top: 0px;
+            font-size: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 30px;
+        }
+
+        img {
+            color: rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0.082);
+            width: 300px;
+            margin-bottom: 20px;
+            transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            flex: 0 1 calc(33.33% - 20px);
+        }
+
+        .img:hover {
+            border: 2px solid #3f4553;
+            transform: scale(1.2);
+            background: linear-gradient(#465D7A, #2E3033, #111);
+            color: rgb(255, 255, 255);
+        }
+
+        .desc {
+            text-decoration: none;
+            padding: 15px;
+            text-align: center;
+            font-family: verdana;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .img a {
+            text-decoration: none;
+        }
+    </style>
+    <title>Riot Games</title>
+</head>
+
+<body>
+
+    <div class="topo cabecalho">
+        <img src="img/riot-games.png" alt="">
+        <p>Explore, Conquiste, Domine: Riot Games Brasil</p>
+    </div>
+
+    <div class="linha cabecalho">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="novidades.html">Novidades</a></li>
+            <li><a href="jogos.html">Nossos jogos</a>
+                <ul>
+                    <li><a href="lol.html">League of Legends</a></li>
+                    <li><a href="valorant.html">Valorant</a></li>
+                    <li><a href="tft.html">Teamfight Tactics</a></li>
+                    <li><a href="wildrift.html">League of Legends Wild Rift</a></li>
+                    <li><a href="lor.html">Legends of Runeterra</a></li>
+                </ul>
+            </li>
+            <li><a href="Esports.html">Esports</a>
+                <ul>
+                    <li><a href="https://lolesports.com/?utm_medium=card1%2Bwww.riotgames.com&utm_source=riotbar"
+                            target="_blank">Lol Esports</a></li>
+                    <li><a href="https://valorantesports.com/" target="_blank">Valorant Champions Tour</a></li>
+                </ul>
+            </li>
+            <li><a href="entretenimento.html">Entretenimento</a>
+                <ul>
+                    <li><a href="https://arcane.com/pt-br/" target="_blank">Arcane</a></li>
+                    <li><a href="https://www.youtube.com/c/riotgamesmusic" target="_blank">Riot Games Music</a></li>
+                </ul>
+            </li>
+            <li><a href="riot-forge.html">Riot Forge</a>
+                <ul>
+                    <li><a href="https://www.hextechmayhem.com/pt-br/" target="_blank">Hextech Mayhem</a></li>
+                    <li><a href="https://www.ruinedking.com/pt-br/" target="_blank">Ruined King</a></li>
+                    <li><a href="https://convrgencegame.com/pt-br/" target="_blank">CONV/RGENCE</a></li>
+                    <li><a href="https://www.songofnunu.com/pt-br/" target="_blank">Song of Nunu</a></li>
+                    <li><a href="https://www.themageseeker.com/pt-br/" target="_blank">The Mageseeker</a></li>
+                    <li><a href="https://www.bandletale.com/pt-br/" target="_blank">Bandle Tale</a></li>
+                </ul>
+            </li>
+            <li><a href="https://support.riotgames.com/hc/pt-br" target="_blank">Suporte</a></li>
+        </ul>
+    </div>
+
+    <h2>Riot Forge</h2>
+
+    <iframe width="560" height="400" src="https://www.youtube.com/embed/Wi1ZzDdlkCg?si=TEmeN2nedpnwmgqM"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <div class="galery">
+
+        <div class="img">
+            <div class="desc">Hextech Mayhem</div>
+            <a class="img-galery" href='https://www.hextechmayhem.com/pt-br/' target="_blank">
+                <img src="img/haxtech.webp" alt=""></a>
+        </div>
+        <div class="img">
+            <div class="desc">Ruined King</div>
+            <a class="img-galery" href='https://www.ruinedking.com/pt-br/' target="_blank">
+                <img src="img/viego.jpg" alt=""></a>
+        </div>
+        <div class="img">
+            <div class="desc">CONV/RGENCE</div>
+            <a class="img-galery" href='https://convrgencegame.com/pt-br/' target="_blank">
+                <img src="img/ekko.webp" alt=""></a>
+        </div>
+
+        <div class="img">
+            <div class="desc">Song of Nunu</div>
+            <a class="img-galery" href='https://www.songofnunu.com/pt-br/' target="_blank">
+                <img src="img/nunu.webp" alt=""></a>
+        </div>
+        <div class="img">
+            <div class="desc">The Mageseeker</div>
+            <a class="img-galery" href='https://www.themageseeker.com/pt-br/' target="_blank">
+                <img src="img/sylas.jpg" alt=""></a>
+        </div>
+        <div class="img">
+            <div class="desc">Bandle Tale</div>
+            <a class="img-galery" href='https://www.bandletale.com/pt-br/' target="_blank">
+                <img src="img/bandletale.webp" alt=""></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p> © 2024 Riot Games, Inc. Todos os direitos reservados. </p>
+        <i class="fa fa-instagram"> @riotgames </i>
+        <i class="fa fa-youtube"> @riotgames </i>
+        <i class="fa fa-twitter"> @riotgames </i>
+    </div>
+
+    <div class="video-container">
+        <video autoplay muted loop id="video-background">
+            <source src="img/the-new-baron-nashor-league-of-legend-moewalls-com.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+    </div>
+
+</body>
+
+</html>
